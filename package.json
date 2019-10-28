@@ -1,0 +1,23 @@
+{
+  "name": "nurse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdan-vlad/nurse247.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogdan-vlad/nurse247/issues"
+  },
+  "homepage": "https://github.com/bogdan-vlad/nurse247#readme"
+}
