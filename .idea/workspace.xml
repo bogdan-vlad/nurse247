@@ -3,95 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="326d7068-2312-430b-b05d-6f61c08d914e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/dist/css/materialize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/dist/css/materialize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/dist/js/materialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/dist/js/materialize.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/extras/noUiSlider/nouislider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/extras/noUiSlider/nouislider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/extras/noUiSlider/nouislider.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/anime.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/buttons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/cards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/cash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/characterCounter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/chips.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/collapsible.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/datepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/dropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/forms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/materialbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/modal.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/parallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/pushpin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/range.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/scrollspy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/sidenav.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/tabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/tapTarget.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/timepicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/toasts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/tooltip.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/js/waves.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_badges.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_cards.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_chips.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_collapsible.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_color-classes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_color-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_datepicker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_grid.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_icons-material-design.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_materialbox.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_preloader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_pulse.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_sidenav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_slider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_table_of_contents.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_tabs.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_tapTarget.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_timepicker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_toast.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_transitions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/_waves.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_checkboxes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_file-input.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_input-fields.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_radio-buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_range.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_select.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/components/forms/_switches.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/materialize-css/sass/materialize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/materialize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/materialize.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/background3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/materialize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/materialize.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/materialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/js/materialize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/materialize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/materialize.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="124" column="27" lean-forward="true" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
+            <state relative-caret-position="409">
+              <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -150,8 +70,8 @@
         <option value="$PROJECT_DIR$/templates/js/init.js" />
         <option value="$PROJECT_DIR$/templates/js/materialize.js" />
         <option value="$PROJECT_DIR$/templates/js/materialize.min.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -179,6 +99,29 @@
             <path>
               <item name="Nurse" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nurse" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nurse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nurse" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nurse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nurse" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nurse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nurse" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nurse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nurse" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -192,12 +135,14 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/template" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,10 +171,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="337" width="1366" height="694" extended-state="6" />
+    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18838422" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18819188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,7 +185,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.7464539" />
+      <window_info anchor="bottom" x="3977" y="423" width="1021" height="461" id="Terminal" order="8" type="WINDOWED" visible="true" weight="0.3760504" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -274,33 +219,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/js/materialize.js">
+    <entry file="file://$PROJECT_DIR$/static/js/materialize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="12337" lean-forward="true" selection-start-line="12337" selection-end-line="12337" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/js/materialize.min.js">
+    <entry file="file://$PROJECT_DIR$/static/js/materialize.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/templates/js/init.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/materialize.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/images/background2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/background3.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -309,36 +250,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/materialize.css">
+    <entry file="file://$PROJECT_DIR$/static/images/background1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/materialize.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="589">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/background2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/background3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/background1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/css/style.css">
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/materialize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="124" column="27" lean-forward="true" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
+        <state relative-caret-position="409">
+          <caret line="111" column="8" lean-forward="true" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
         </state>
       </provider>
     </entry>

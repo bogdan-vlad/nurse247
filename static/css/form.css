@@ -1,0 +1,20 @@
+.head {
+    -webkit-border-radius:6px 6px 0px 0px;
+    -moz-border-radius:6px 6px 0px 0px;
+    border-radius:6px 6px 0px 0px;
+    background-color:#cccccc;
+    color:#FAFAFA;
+}
+  .hello {
+    text-align:center;
+    padding:18px 0 18px 0;
+    font-size: 1.4em;
+  }
+  form {
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .padding-top {
+      padding-top: 10px;
+  }
