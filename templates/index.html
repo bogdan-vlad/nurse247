@@ -1,43 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel='stylesheet' href='static/css/style.css'>
-  <link rel='stylesheet' href='static/css/form.css'>
-  <link rel='stylesheet' href='static/css/social.css'>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+{% extends 'base.html' %}
 
-  <title>YourNurse24/7</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="" class="brand-logo padding-top"><img src="/static/images/logo.svg" alt=""></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#contact">Contact us</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#contact">Contact us</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
+{% block content %}
+<div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Your Nurse 24/7</h1>
         <div class="row center">
-          <h5 class="header col s12 light">We care about you</h5>
+          <h5 class="header col s12 teal-text text-lighten-2">We care about you</h5>
         </div>
         <div class="row center">
         </div>
@@ -73,7 +43,10 @@
             <p class="light">Our team are a unique group of individuals who all bring their 
               own colourful characteristics to the home. Staff here are dedicated to 
               delivering a high level of care to those we support and making sure that they 
-              live as comfortably as possible.</p>
+              live as comfortably as possible. As a provider of temporary, contract and permanent care staff, 
+              we supply experienced and trained Healthcare Assistants, Support Workers and 
+              Nurses to a wide range of clients across Bristol and the surrounding region.
+            </p>
           </div>
         </div>
 
@@ -82,10 +55,12 @@
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Our passion is you</h5>
 
-            <p class="light">We’re passionate about discovering what matters to you. Whether you’d like to watch a 
-              movie in a relaxed one-to-one session or join the musical memory group, our staff will 
-              support your needs around the clock. We’ve partnered with experts who regularly visit 
-              to help stimulate body and mind.</p>
+            <p class="light">We are committed to meeting all of your health needs, and go
+              above and beyond to ensure you get the best care available.
+              We use our knowledge to recruit only the best and most suitable
+              candidates, offering a wide range of nursing jobs to them. We focus on positive outcomes. 
+              Positive outcomes for the vulnerable people we support, for the teams who work so 
+              hard to support them and for the staff we empower and trust to deliver outstanding care.</p>
           </div>
         </div>
       </div>
@@ -105,33 +80,6 @@
     <div class="parallax"><img src="/static/images/medical3.jpg" style="opacity: 1;" alt="Unsplashed background img 2"></div>
   </div>
 
-  <section id="contact">
-    <div class="container">
-      <div class="section">
-  
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send brown-text"></i></h3>
-            <h4>Contact Us</h4>
-            <p class="left-align light"></p>
-              <form action="https://formspree.io/bogdan.vlad.v@gmail.com" method="POST">
-                <div class="head">
-                    <h2 class="hello">We would like to hear from you, contact us</h2>
-              </div>
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="_replyto" placeholder="Email" required>
-                <textarea id="textarea2" class="materialize-textarea" id="comments" name="message" placeholder="Message" rows="4" required></textarea>
-                <button class="waves-effect waves-light btn" type="submit">Send</button>
-                <input type="hidden" name="_next" value="http://127.0.0.1:5000/" />
-              </form>
-          </div>
-        </div>
-  
-      </div>
-    </div>
-  </section>
-
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -142,52 +90,4 @@
     </div>
     <div class="parallax"><img src="/static/images/medical8.jpg" style="opacity: 1;" alt="Unsplashed background img 3"></div>
   </div>
-
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">The experience and knowledge of our team enables us to 
-              really understand our clients changing needs and enhance our 
-              reputation based on our ability to deliver responsive, reliable 
-              and people centred services to both individuals and organisations.</p>
-                <p>Our ‘people-first’ approach is at the heart of our values, 
-                and an experienced member of staff is available 24 hours a day, 
-                seven days a week to ensure your needs are covered</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Social Media</h5>
-          <ul>
-              <a href="https://www.facebook.com/Your-Nurse-247-275733063114102/"
-                 class="fa fa-facebook" target="_blank"></a>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Contact</h5>
-          <ul>
-            <li><a class="white-text" href="#!">office@yournurse247.co.uk</a></li>
-            <!-- <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li> -->
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="#">Bogdan Vlad</a>
-      </div>
-    </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="static/js/materialize.js"></script>
-  <!-- <script src="js/init.js"></script> -->
-
-  </body>
-</html>
+  {% endblock %}
