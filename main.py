@@ -1,4 +1,18 @@
-from flask import Flask, render_template, url_for
+import os
+from collections import namedtuple
+
+from flask import (
+    Flask,
+    render_template,
+    url_for,
+    request,
+    session,
+    redirect,
+)
+
+import sqlite3
+
+DB_FILE = 'register.db'
 
 app = Flask(__name__)
 
@@ -19,6 +33,10 @@ def contact():
 @app.route('/work_with_us')
 def work_with_us():
     return render_template('work_with_us.html', title='Work With Us')
+
+@app.route('/register')
+def register():
+    return render_template('register.html', title='About')
 
 if __name__ == "__main__":
     app.run(debug=True)
