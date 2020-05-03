@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="X-Frame-Options" content="sameorigin">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -31,19 +30,18 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="{{url_for('hello')}}">Home</a></li>
         <li><a href="{{url_for('about')}}">About</a></li>
-        <li><a href="{{url_for('work_with_us')}}">Work With Us</a></li>
         <li><a href="{{url_for('contact')}}">Contact Us</a></li>
         <li><a href="{{url_for('register')}}">Register</a></li>
       </ul>
     </div>
 </nav>
 
-      <ul class="sidenav" id="nav-mobile">
-        <li><a href="{{url_for('hello')}}">Home</a></li>
-        <li><a href="{{url_for('about')}}">About</a></li>
-        <li><a href="{{url_for('work_with_us')}}">Work With Us</a></li>
-        <li><a href="{{url_for('contact')}}">Contact Us</a></li>
-      </ul>
+  <ul class="sidenav" id="nav-mobile">
+    <li><a href="{{url_for('hello')}}">Home</a></li>
+    <li><a href="{{url_for('about')}}">About</a></li>
+    <li><a href="{{url_for('contact')}}">Contact Us</a></li>
+    <li><a href="{{url_for('register')}}">Register</a></li>
+  </ul>
 
   {% block content %} {% endblock %}
 
@@ -52,12 +50,12 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">The experience and knowledge of our team enables us to 
-              really understand our clients changing needs and enhance our 
-              reputation based on our ability to deliver responsive, reliable 
+          <p class="grey-text text-lighten-4">The experience and knowledge of our team enables us to
+              really understand our clients changing needs and enhance our
+              reputation based on our ability to deliver responsive, reliable
               and people centred services to both individuals and organisations.</p>
-                <p>Our ‘people-first’ approach is at the heart of our values, 
-                and an experienced member of staff is available 24 hours a day, 
+                <p>Our ‘people-first’ approach is at the heart of our values,
+                and an experienced member of staff is available 24 hours a day,
                 seven days a week to ensure your needs are covered</p>
 
 
@@ -92,19 +90,5 @@
   <script src="static/js/materialize.js"></script>
   <script src="static/js/nav_mobile.js"></script>
   <!-- <script src="js/init.js"></script> -->
-  <script>
-    var adminManager = new ActiveXObject('Microsoft.ApplicationHost.WritableAdminManager');
-        adminManager.CommitPath = "MACHINE/WEBROOT/APPHOST/Default Web Site";
-    var httpProtocolSection = adminManager.GetAdminSection("system.webServer/httpProtocol", "MACHINE/WEBROOT/APPHOST/Default Web Site");
-    var customHeadersCollection = httpProtocolSection.ChildElements.Item("customHeaders").Collection;
-
-    var addElement = customHeadersCollection.CreateNewElement("add");
-        addElement.Properties.Item("name").Value = "X-Custom-Name";
-        addElement.Properties.Item("value").Value = "MyCustomValue";
-        customHeadersCollection.AddElement(addElement);
-
-        adminManager.CommitChanges();
-  </script>
-
   </body>
 </html>

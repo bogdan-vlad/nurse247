@@ -58,3 +58,33 @@ footer.page-footer {
 .margin {
   margin: 2rem;
 }
+.footer-margin-bottom-12 {
+    margin-bottom: 12%;
+}
+.footer-margin-bottom-10 {
+    margin-bottom: 10%;
+}
+.box-card {
+  background: #fff;
+  border-radius: 6px;
+  display: inline-block;
+  height: 10rem;
+  position: relative;
+  width: 50% !important;
+  margin-left: 23%;
+  margin-top: 10%;
+}
+.card-confirmation {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.section-conf {
+    display: flex;
+}
+.go-home{
+    margin: auto !important;
+    text-align: center;
+}
+.medium {
+    color: #125a1b
+}
+

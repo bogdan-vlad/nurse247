@@ -4,28 +4,39 @@
 
 <form action="{{ url_for('register_new_form') }}" enctype="multipart/form-data" method="POST">
     <div class="row">
+        <h4 class="margin-left-10vw">Register with us</h4>
         <div class="col s6 margin-25">
             <p>Your details</p>
-            <!-- <div class="row">
-                <div class="input-field col s6">
-                    <select class="browser-default">
-                        <option value="" disabled selected>Choose your title</option>
-                        <option name='title' value="1">Mr</option>
-                        <option name='title' value="2">Mrs</option>
-                        <option name='title' value="3">Miss</option>
-                        <option name='title' value="3">Dr</option>
-                        <option name='title' value="3">Sir</option>
-                    </select>
+            <div class="row">
+                <div class="col s12">
+                    <label>
+                        <input class="with-gap" type="radio" name="title" value="Mr" checked><span>Mr</span>
+                    </label>
+                    <label>
+                        <input class="with-gap" type="radio" name="title" value="Ms"><span>Ms</span>
+                    </label>
+                    <label>
+                        <input class="with-gap" type="radio" name="title" value="Miss"><span>Miss</span>
+                    </label>
+                    <label>
+                        <input class="with-gap" type="radio" name="title" value="Mrs"><span>Mrs</span>
+                    </label>
+                    <label>
+                        <input class="with-gap" type="radio" name="title" value="Dr"><span>Dr</span>
+                    </label>
+                    <label>
+                        <input class="with-gap" type="radio" name="title" value="Sir"><span>Sir</span>
+                    </label>
                 </div>
-            </div> -->
+            </div>
             <div class="row">
                 <div class="input-field col s6">
-                    <label for="first_name">First Name</label>
-                    <input name="first_name" id="first_name" type="text">
+                    <label for="first_name">First Name*</label>
+                    <input name="first_name" id="first_name" type="text" required>
                 </div>
                 <div class="input-field col s6">
-                    <input name="last_name" id="last_name" type="text" class="validate">
-                    <label for="last_name">Last Name</label>
+                    <input name="last_name" id="last_name" type="text" class="validate" required>
+                    <label for="last_name">Last Name*</label>
                 </div>
             </div>
             <div class="row">
@@ -34,171 +45,258 @@
                     <label for="telephone">Telephone number</label>
                 </div>
                 <div class="input-field col s6">
-                    <input name="email" id="email" type="email" class="validate">
-                    <label for="email">Email</label>
+                    <input name="email" id="email" type="email" class="validate" required>
+                    <label for="email">Email*</label>
                 </div>
             </div>
-            <!-- <div class="row">
+            <div class="row">
                 <div class="input-field col s6">
-                    <input id="nationality" type="text" class="validate">
+                    <input name="nationality" id="nationality" type="text" class="validate">
                     <label for="nationality">Nationality</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="nino" type="text" class="validate">
+                    <input name="nino" id="nino" type="text" class="validate">
                     <label for="nino">National Insurance Number</label>
                 </div>
-            </div> -->
-            <!-- <div class="row">
+            </div>
+            <div class="row">
                 <div class="input-field col s12">
-                    <input id="address" type="text" class="validate">
+                    <input name="address" id="address" type="text" class="validate">
                     <label for="address">Address</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s6">
-                    <input id="postcode" type="text" class="validate">
+                    <input name="postcode" id="postcode" type="text" class="validate">
                     <label for="postcode">Postcode</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="dob" type="date" class="validate">
+                    <input name="dob" id="dob" type="date" class="validate">
                     <label for="dob">Date of Birth</label>
                 </div>
-            </div> -->
+            </div>
             <div class="row">
-                <div class="input-field col s6">
+                <div class="input-field col s12">
                     <p class="text-secondary">Are there any restrictions to your residence withing the UK
                         that might your right to take up employment in the UK?<br>
                         <label>
-                            <input class="with-gap" name="tpe" type="radio" value="yes" />
+                            <input
+                                class="with-gap"
+                                name="tpe"
+                                type="radio" value="yes" />
                             <span>Yes</span>
                         </label>
                         <label>
-                            <input class="with-gap" name="tpe" type="radio" value="no" />
+                            <input
+                                class="with-gap"
+                                name="tpe"
+                                type="radio"
+                                value="no" checked />
                             <span>No</span>
                         </label>
                     </p>
                 </div>
-                <!-- <div class="input-field col s6">
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
                     <p>
                         If your application is successful, would you require permission
                         to work in the UK?<br>
                         <label>
-                            <input class="with-gap" name="group1" type="radio"  />
+                            <input
+                                class="with-gap"
+                                name="perm_uk"
+                                type="radio"
+                                value="yes" />
                             <span>Yes</span>
                         </label>
                         <label>
-                            <input class="with-gap" name="group1" type="radio"  />
+                            <input
+                                class="with-gap"
+                                name="perm_uk"
+                                type="radio"
+                                value="no" checked />
                             <span>No</span>
                         </label>
                     </p>
-                </div> -->
+                </div>
             </div>
-            <!-- <p>NMC/GMC/GDC pin (if applicable)</p>
+            <p>NMC/GMC/GDC pin (if applicable)</p>
             <div class="row">
                 <div class="input-field col s6">
-                    <input id="nmc" type="number" class="validate">
+                    <input id="nmc" type="text" name="nmc">
                     <label for="nmc">NMC number</label>
                 </div>
                 <div class="input-field col s6">
-                    <input id="nmc_expiry" type="date" class="validate">
+                    <input
+                        id="nmc_expiry"
+                        name="nmc_expiry"
+                        type="date"
+                        class="validate">
                     <label for="nmc_expiry">Expiry Date</label>
                 </div>
-            </div> -->
-            <!-- <p>Criminal Records</p>
+            </div>
+            <p>Criminal Records</p>
             <div class="row">
-                <div class="input-field col s6">
+                <div class="input-field col s12">
                     <p class="text-secondary">Do you have any unspent* Criminal
                         convictions?<br>
                         <label>
-                            <input 
-                                class="with-gap" 
-                                onclick="display_box_conviction()" 
-                                id='convicted_yes' 
-                                name="group2" 
+                            <input
+                                class="with-gap"
+                                value="yes"
+                                onclick="display_box_conviction()"
+                                id='convicted_yes'
+                                name="group1"
                                 type="radio"/>
                             <span>Yes</span>
                         </label>
                         <label>
-                            <input 
-                                class="with-gap" 
-                                name="group2" 
-                                type="radio" 
-                                onclick="hide_box_conviction()"/>
+                            <input
+                                class="with-gap"
+                                value="no"
+                                name="group1"
+                                type="radio"
+                                onclick="hide_box_conviction()" checked/>
                             <span>No</span>
                         </label>
                     </p>
                 </div>
-                <div class="input-field col s6">
+            </div>
+
+            <div id="criminal" style="display: none">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input
+                            id="conviction"
+                            type="text"
+                            class="validate"
+                            name="group1_provide">
+                        <label for="conviction">Please provide</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
                     <p>
                         Are you / have been under / or undergoing any clinical
                         investigation, disciplinary or suspension process
                         pending or otherwise?<br>
                         <label>
-                            <input 
-                                class="with-gap" 
-                                name="group2" 
-                                type="radio" 
-                                id="suspension" 
+                            <input
+                                class="with-gap"
+                                name="group2"
+                                value="yes"
+                                type="radio"
+                                id="suspension_yes"
                                 onclick="display_investigation()" />
                             <span>Yes</span>
                         </label>
                         <label>
-                            <input class="with-gap" name="group2" type="radio"  />
+                            <input
+                                class="with-gap"
+                                value="no"
+                                name="group2"
+                                type="radio"
+                                onclick="hide_display_conviction()" checked/>
                             <span>No</span>
                         </label>
                     </p>
                 </div>
-            </div> -->
-            <!-- <div id="criminal" style="display: none">
-                <div class="row">
-                    <div class="input-field col s12">
-                        <input id="conviction" type="text" class="validate">
-                        <label for="conviction">Please provide</label>
-                    </div>
-                </div>
             </div>
+
             <div id="investigation" style="display: none">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="suspension" type="text" class="validate">
+                        <input
+                            id="suspension"
+                            type="text"
+                            class="validate"
+                            name="group2_provide">
                         <label for="suspension">Please provide</label>
                     </div>
                 </div>
-            </div> -->
-            <!-- <div class="row">
-                <div class="input-field col s6">
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
                     <p>
                         Do you have any health issues or a disability relevant
                         which may make it difficult for you to carry out functions
                         which are essential for the role you seek?<br>
                         <label>
-                            <input class="with-gap" name="group3" type="radio"  />
+                            <input
+                                id="health_yes"
+                                class="with-gap"
+                                name="group3"
+                                type="radio"
+                                onclick="display_health_yes()" />
                             <span>Yes</span>
                         </label>
                         <label>
-                            <input class="with-gap" name="group3" type="radio"  />
+                            <input
+                                class="with-gap"
+                                value="no"
+                                name="group3"
+                                type="radio"
+                                onclick="hide_health_yes()" checked/>
                             <span>No</span>
                         </label>
                     </p>
                 </div>
-                <div class="input-field col s6">
+            </div>
+
+            <div id="health" style="display: none">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input
+                            id="health_issue"
+                            type="text"
+                            class="validate"
+                            name="group3_provide">
+                        <label for="health_issue">Please provide</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
                     <p>
                         Please tick the appropriate box to confirm that you have read
                         and understood the above information.<br>
                         <label>
-                            <input class="with-gap" name="group4" type="radio"  />
-                            <span>I DO NOT wish to work more than 48 hrs per week*</span>
+                            <input
+                                value="I DO NOT wish to work more than 48 hrs per week"
+                                class="with-gap"
+                                name="group4"
+                                type="radio" checked/>
+                            <span>I DO NOT wish to work more than 48 hrs per week</span>
                         </label>
                         <label>
-                            <input class="with-gap" name="group3" type="radio"  />
-                            <span>I DO wish to work more than 48 hrs per week*</span>
+                            <input
+                                value="I DO wish to work more than 48 hrs per week"
+                                class="with-gap"
+                                name="group4"
+                                type="radio"  />
+                            <span>I DO wish to work more than 48 hrs per week</span>
                         </label>
                     </p>
                 </div>
-            </div> -->
+            </div>
+            <input type="submit" class="btn btn-primary" onclick="preload()" />
+            <div id="preloader" class="preloader-wrapper big active" style="display: none">
+                <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left">
+                    <div class="circle"></div>
+                  </div><div class="gap-patch">
+                    <div class="circle"></div>
+                  </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+            </div>
         </div>
-        <input type="submit" class="btn btn-primary" />
     </div>
 </form>
-
 {% endblock %}
