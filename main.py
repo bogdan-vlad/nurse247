@@ -86,8 +86,8 @@ def register_new_form():
 
     import smtplib
 
-    EMAIL = os.environ.get('EMAIL')
-    PASSWORD = os.environ.get('PASSWORD')
+    # EMAIL = 'compliance@yournurse247.co.uk'
+    # PASSWORD = 'Bristol2020!'
 
     send_from = email
     to = 'compliance@yournurse247.co.uk'
