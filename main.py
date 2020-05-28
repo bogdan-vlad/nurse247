@@ -154,14 +154,18 @@ def register_new_form():
 
     msg.attach(MIMEText(body, 'html'))
 
+    print('Before')
     try:
+        print('Started...')
         s = smtplib.SMTP('smtp.gmail.com', 587)
+        print('Conn to SMTP')
         s.starttls()
-        s.login(EMAIL, PASSWORD)
+        s.login('compliance@yournurse247.co.uk', 'Bristol2020!')
         s.sendmail(send_from, to, msg.as_string())
         s.quit()
     except:
-        print('Error')
+        print('Error, not send')
+    print('Success')
 
     # conn = sqlite3.connect(DB_FILE)
     # cursor = conn.cursor()
