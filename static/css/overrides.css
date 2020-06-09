@@ -1,0 +1,3 @@
+.card.large .card-image + .card-content {
+    max-height: 66% !important;
+}

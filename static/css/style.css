@@ -20,7 +20,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 45rem;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -87,4 +87,13 @@ footer.page-footer {
 .medium {
     color: #125a1b
 }
-
+.sidenav {
+  background: #25a2c3;
+}
+.sidenav li > a {
+  color: #fff;
+  padding: 0 !important;
+}
+.sidenav li > a:hover {
+  background-color: none !important;
+}

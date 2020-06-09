@@ -1,0 +1,73 @@
+@media screen and (max-width: 980px) {
+
+	#three {
+		text-align: center;
+	}
+
+}
+
+.wrapper {
+	padding: 6em 0 4em 0;
+}
+
+.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
+	color: #25a2c3;
+}
+
+.wrapper.style1 {
+	background: #f6755e;
+	color: #fcdcd6;
+}
+
+	.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
+		color: #fff;
+	}
+
+	.wrapper.style1 cite.author {
+		color: #fff;
+	}
+
+@media screen and (max-width: 980px) {
+
+	.wrapper {
+		padding: 3em 0 1em 0;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.wrapper {
+		padding: 2em 0 0.1em 0;
+	}
+
+}
+
+.inner {
+	margin: 0 auto;
+	max-width: 65em;
+}
+
+	@media screen and (max-width: 1280px) {
+
+		.inner {
+			max-width: 90%;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.inner {
+			max-width: 70%;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.inner {
+			max-width: 85%;
+		}
+
+	}

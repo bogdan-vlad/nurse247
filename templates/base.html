@@ -11,6 +11,11 @@
   <link rel='stylesheet' href='static/css/social.css'>
   <link rel='stylesheet' href='static/css/about.css'>
   <link rel='stylesheet' href='static/css/register_form.css'>
+  <link rel='stylesheet' href='static/css/main.css'>
+  <link rel='stylesheet' href='static/css/colour.css'>
+  <link rel='stylesheet' href='static/css/overrides.css'>
+  <link rel='stylesheet' href='static/css/helpers.css'>
+  <link rel="icon" href="/static/images/black.png" type="image/png" sizes="32x32">
   <script src="static/js/app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
@@ -23,25 +28,32 @@
   {% endblock head_js %}
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="{{url_for('hello')}}" class="brand-logo padding-top"><img src="/static/images/logo.svg" alt=""></a>
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="{{url_for('hello')}}">Home</a></li>
-        <li><a href="{{url_for('about')}}">About</a></li>
-        <li><a href="{{url_for('contact')}}">Contact Us</a></li>
-        <li><a href="{{url_for('register')}}">Register</a></li>
-      </ul>
+  <header class="white" role="navigation">
+    <div class="row">
+      <div class="col s12 margin-2 margin-bottom-0">
+          <div class="nav-wrapper container">
+            <div class="col s4">
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger margin-right-30"><i class="material-icons font-size-3">menu</i></a>
+            </div>
+              <ul class="sidenav" id="nav-mobile">
+                <div class="wrapper-sidenav">
+                  <li class="border-bottom"><a href="{{url_for('hello')}}">Home</a></li>
+                  <li class="border-bottom"><a href="{{url_for('about')}}">About</a></li>
+                  <li class="border-bottom"><a href="{{url_for('contact')}}">Contact Us</a></li>
+                  <li><a href="{{url_for('register')}}">Register</a></li>
+                </div>
+              </ul>
+              <div class="col s4">
+                  <a href="{{url_for('hello')}}" class=""><img src="/static/images/transparent.png" alt="" height="70" width="280"></a>
+              </div>
+              <div class="col s4">
+                  <a href="">Contact Us<i class="material-icons">local_phone</i></a>
+              </div>
+          </div>
+      </div>
     </div>
-</nav>
+  </header>
 
-  <ul class="sidenav" id="nav-mobile">
-    <li><a href="{{url_for('hello')}}">Home</a></li>
-    <li><a href="{{url_for('about')}}">About</a></li>
-    <li><a href="{{url_for('contact')}}">Contact Us</a></li>
-    <li><a href="{{url_for('register')}}">Register</a></li>
-  </ul>
 
   {% block content %} {% endblock %}
 
@@ -74,6 +86,14 @@
             <li><a class="white-text">Landline: 01174010486</a></li>
             <li><a class="white-text">On Call: 07960097790 / 07951505105</a></li>
           </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s3">
+          <a href="/terms">Terms & Conditions</a>
+        </div>
+        <div class="col s3">
+          <a href="/privacy">Privacy Policy</a>
         </div>
       </div>
     </div>

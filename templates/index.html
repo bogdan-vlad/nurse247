@@ -3,70 +3,73 @@
 {% block content %}
 <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
-      <div class="container">
+      <div class="container margin-top-10 margin-left-5">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Your Nurse 24/7</h1>
         <div class="row center">
           <h5 class="header col s12 teal-text text-lighten-2">We care about you</h5>
         </div>
         <div class="row center">
+            <a href="{{url_for('register')}}" class="waves-effect waves-light btn">Register with us</a>
         </div>
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="/static/images/medical2.jpg" style="opacity: 1;" alt="Unsplashed background img 1"></div>
-  </div>
+</div>
 
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Highly Skilled Practitioners<br> at Your Service</h5>
-
+<div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="card large">
+          <div class="card-image max-height-12">
+            <img src="static/images/medical7.jpg">
+            <span class="card-title">Highly Skilled Practitioners<br> at Your Service</span>
+          </div>
+          <div class="card-content">
             <p class="light">Your Nurse 24/7 is a reliable and trustworthy Nursing Agency service in UK — providing
-              excellent healthcare solutions to hospitals and care homes . We are committed to meeting 
-              all of your health needs, and go above and beyond to ensure you get the best care available.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">A unique team</h5>
-
-            <p class="light">Our team are a unique group of individuals who all bring their 
-              own colourful characteristics to the home. Staff here are dedicated to 
-              delivering a high level of care to those we support and making sure that they 
-              live as comfortably as possible. As a provider of temporary, contract and permanent care staff, 
-              we supply experienced and trained Healthcare Assistants, Support Workers and 
-              Nurses to a wide range of clients across Bristol and the surrounding region.
-            </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Our passion is you</h5>
-
-            <p class="light">We are committed to meeting all of your health needs, and go
-              above and beyond to ensure you get the best care available.
-              We use our knowledge to recruit only the best and most suitable
-              candidates, offering a wide range of nursing jobs to them. We focus on positive outcomes. 
-              Positive outcomes for the vulnerable people we support, for the teams who work so 
-              hard to support them and for the staff we empower and trust to deliver outstanding care.</p>
+                excellent healthcare solutions to hospitals and care homes . We are committed to meeting 
+                all of your health needs, and go above and beyond to ensure you get the best care available.</p>
           </div>
         </div>
       </div>
-
+      <div class="col s12 m4">
+        <div class="card large">
+          <div class="card-image max-height-12">
+            <img src="static/images/medical7.jpg">
+            <span class="card-title">A unique team</span>
+          </div>
+          <div class="card-content">
+            <p class="light">Our team are a unique group of individuals who all bring their 
+                own colourful characteristics to the home. Staff here are dedicated to 
+                delivering a high level of care to those we support and making sure that they 
+                live as comfortably as possible. As a provider of temporary, contract and permanent care staff, 
+                we supply experienced and trained Healthcare Assistants, Support Workers and 
+                Nurses to a wide range of clients across Bristol and the surrounding.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="card large">
+          <div class="card-image max-height-12">
+            <img src="static/images/medical5.jpg">
+            <span class="card-title">Our passion is you</span>
+          </div>
+          <div class="card-content">
+            <p class="light">We are committed to meeting all of your health needs, and go
+                above and beyond to ensure you get the best care available.
+                We use our knowledge to recruit only the best and most suitable
+                candidates, offering a wide range of nursing jobs to them. We focus on positive outcomes. 
+                Positive outcomes for the vulnerable people we support, for the teams who work so 
+                hard to support them and for the staff we empower and trust to deliver outstanding care.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+</div>
 
 
   <div class="parallax-container valign-wrapper">
@@ -78,16 +81,5 @@
       </div>
     </div>
     <div class="parallax"><img src="/static/images/medical3.jpg" style="opacity: 1;" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light"></h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="/static/images/medical8.jpg" style="opacity: 1;" alt="Unsplashed background img 3"></div>
   </div>
   {% endblock %}
