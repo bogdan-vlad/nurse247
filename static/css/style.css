@@ -1,11 +1,17 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
+body {
+  overflow-y: scroll !important;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  z-index: 99999;
+  /* height: 10%; */
+}
+.header {
+  color: #1d4d6f;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -13,6 +19,11 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+}
+.icons-career {
+  text-align: center;
+  line-height: 20px;
+  color: #186194;
 }
 
 .sidenav-trigger {
@@ -24,10 +35,12 @@ p {
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-  .parallax-container .section {
+  /* .parallax-container .section {
     width: 100%;
-  }
+  } */
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -68,11 +81,12 @@ footer.page-footer {
   background: #fff;
   border-radius: 6px;
   display: inline-block;
-  height: 10rem;
+  /* height: 10rem; */
   position: relative;
   width: 50% !important;
   margin-left: 23%;
   margin-top: 10%;
+  margin-bottom: 3%;
 }
 .card-confirmation {
       box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -96,4 +110,125 @@ footer.page-footer {
 }
 .sidenav li > a:hover {
   background-color: none !important;
+}
+.contact-phone {
+  color: #039be5;
+}
+.careers {
+  color: #000000;
+  width: 30%;
+  margin-left: 20rem;
+}
+i.small {
+  font-size: 4rem !important;
+  color: #112838 !important;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+i.small:hover {
+  color: #186194 !important;
+  cursor: pointer;
+}
+#contact {
+  padding-top: 12rem;
+}
+
+.logo-top {
+  margin-top: -20px
+}
+.width-half {
+  width: 50% !important;
+}
+.margin-left-contact {
+  margin-left: 20rem;
+}
+@media screen and (max-width: 600px) {
+  .margin-left-20 {
+    margin-left: 0;
+  }
+
+  .logo-top {
+    margin-top: -50px
+  }
+
+  .margin-left-contact {
+    margin-left: 8rem;
+  }
+
+  .padding-10 {
+    padding: 0 !important;
+    padding-left: 1rem !important;
+}
+
+  body > div.col.s12.parallax-container.valign-wrapper > div > div.col.s6.margin-left-10 {
+    width: 0;
+    margin-left: 0;
+  }
+
+  .width-half {
+    width: 100% !important;
+  }
+
+  .parallax-container .parallax img {
+    min-width: 77rem !important;
+    min-height: 75% !important;
+  }
+
+  .yn-top {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    margin-top: 10rem;
+  }
+  .box-card {
+    margin-top: 50% !important;
+    padding: 5px;
+  }
+
+  .c-mobile {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .centered-heading {
+    margin-top: 10rem !important;
+  }
+}
+
+.file-upload {
+  display: inline-flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.file-upload__input {
+  display: none;
+}
+
+.file-upload__button {
+  -webkit-appearance: none;
+  background: #009879;
+  border: 2px solid #00745d;
+  border-radius: 4px;
+  outline: none;
+  padding: 0.5em 0.8em;
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.file-upload__button:active {
+  background: #00745d;
+}
+
+.file-upload__label {
+  max-width: 250px;
+  font-size: 0.95em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: "Quicksand", sans-serif;
 }

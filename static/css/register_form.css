@@ -2,3 +2,13 @@
     margin-left: 25% !important;
     margin-right: 25% !important;
 }
+
+@media screen and (max-width: 600px) {
+    .margin-25 {
+        margin-left: 0 !important;
+    }
+
+    .form-header {
+        margin-top: 14rem;
+    }
+}

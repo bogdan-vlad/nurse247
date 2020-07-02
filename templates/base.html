@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,6 +15,7 @@
   <link rel='stylesheet' href='static/css/colour.css'>
   <link rel='stylesheet' href='static/css/overrides.css'>
   <link rel='stylesheet' href='static/css/helpers.css'>
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <link rel="icon" href="/static/images/black.png" type="image/png" sizes="32x32">
   <script src="static/js/app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -30,9 +31,9 @@
 <body>
   <header class="white" role="navigation">
     <div class="row">
-      <div class="col s12 margin-2 margin-bottom-0">
+      <div class="col l12 s12 margin-2 margin-bottom-0">
           <div class="nav-wrapper container">
-            <div class="col s4">
+            <div class="col l4 s12">
                 <a href="#" data-target="nav-mobile" class="sidenav-trigger margin-right-30"><i class="material-icons font-size-3">menu</i></a>
             </div>
               <ul class="sidenav" id="nav-mobile">
@@ -43,11 +44,11 @@
                   <li><a href="{{url_for('register')}}">Register</a></li>
                 </div>
               </ul>
-              <div class="col s4">
-                  <a href="{{url_for('hello')}}" class=""><img src="/static/images/transparent.png" alt="" height="70" width="280"></a>
+              <div class="col l4 s12">
+                  <a href="{{url_for('hello')}}" class="margin-left-3"><img src="/static/images/247.png" alt="" height="70" width="230" class="logo-top"></a>
               </div>
-              <div class="col s4">
-                  <a href="">Contact Us<i class="material-icons">local_phone</i></a>
+              <div class="col l4 s12 margin-top-1">
+                  <a href="{{url_for('contact')}}" class="contact-phone margin-left-contact">Contact Us <i class="material-icons v-middle">local_phone</i></a>
               </div>
           </div>
       </div>
@@ -62,13 +63,13 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">The experience and knowledge of our team enables us to
-              really understand our clients changing needs and enhance our
-              reputation based on our ability to deliver responsive, reliable
-              and people centred services to both individuals and organisations.</p>
-                <p>Our ‘people-first’ approach is at the heart of our values,
-                and an experienced member of staff is available 24 hours a day,
-                seven days a week to ensure your needs are covered</p>
+          <p class="grey-text text-lighten-4">Owned and led by nurses, we have 
+            been supplying nurses and care staff across the South and South West, 
+            since 2017 we have a simple directive: to offer 
+            excellent care and support to your staff and care community. Our 
+            staff believe in accountability for their work.</p>
+                <p>We specialize not only in ‘last minute’ staff placement, 
+                  but go by the “our staff is your staff” principle.</p>
 
 
         </div>
@@ -82,7 +83,7 @@
         <div class="col l3 s12">
           <h5 class="white-text">Contact</h5>
           <ul>
-            <li><a class="white-text" href="mailto:woffice@yournurse247.co.uk">Email: office@yournurse247.co.uk</a></li>
+            <li><a class="white-text" href="mailto:office@yournurse247.co.uk">Email: office@yournurse247.co.uk</a></li>
             <li><a class="white-text">Landline: 01174010486</a></li>
             <li><a class="white-text">On Call: 07960097790 / 07951505105</a></li>
           </ul>

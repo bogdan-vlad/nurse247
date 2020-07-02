@@ -5,9 +5,9 @@
     <div class="section no-pad-bot">
       <div class="container margin-top-10 margin-left-5">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Your Nurse 24/7</h1>
+        <h1 class="header center yn-top">Your Nurse 24/7</h1>
         <div class="row center">
-          <h5 class="header col s12 teal-text text-lighten-2">We care about you</h5>
+          <h5 class="header col s12">Quality Care You Can Trust</h5>
         </div>
         <div class="row center">
             <a href="{{url_for('register')}}" class="waves-effect waves-light btn">Register with us</a>
@@ -15,7 +15,7 @@
         <br><br>
       </div>
     </div>
-    <div class="parallax"><img src="/static/images/medical2.jpg" style="opacity: 1;" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="/static/images/front.jpg" class="responsive" style="opacity: 1; width: 1px;" alt="Unsplashed background img 1"></div>
 </div>
 
 
@@ -25,8 +25,10 @@
       <div class="col s12 m4">
         <div class="card large">
           <div class="card-image max-height-12">
-            <img src="static/images/medical7.jpg">
-            <span class="card-title">Highly Skilled Practitioners<br> at Your Service</span>
+            <img src="static/images/care.jpg" class="opacity-05">
+            <span class="card-title">
+              <p class="text-dark">Highly Skilled Practitioners<br> at Your Service</p>
+            </span>
           </div>
           <div class="card-content">
             <p class="light">Your Nurse 24/7 is a reliable and trustworthy Nursing Agency service in UK — providing
@@ -38,8 +40,9 @@
       <div class="col s12 m4">
         <div class="card large">
           <div class="card-image max-height-12">
-            <img src="static/images/medical7.jpg">
-            <span class="card-title">A unique team</span>
+            <img src="static/images/medical7.jpg" class="opacity-05">
+            <span class="card-title">
+              <p class="text-dark">A unique team</p></span>
           </div>
           <div class="card-content">
             <p class="light">Our team are a unique group of individuals who all bring their 
@@ -54,8 +57,10 @@
       <div class="col s12 m4">
         <div class="card large">
           <div class="card-image max-height-12">
-            <img src="static/images/medical5.jpg">
-            <span class="card-title">Our passion is you</span>
+            <img src="static/images/medical5.jpg" class="opacity-05">
+            <span class="card-title">
+              <p class="text-dark">Our passion is you</p>
+            </span>
           </div>
           <div class="card-content">
             <p class="light">We are committed to meeting all of your health needs, and go
@@ -71,15 +76,64 @@
   </div>
 </div>
 
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light"></h5>
+<div class="col s12 parallax-container valign-wrapper">
+    <div class="row padding-10">
+    <div class="col s6 careers">
+      <h5 class="">Careers with YourNurse 24/7</h5>
+      <p>If you are a Nurse, Care Assistant, Support worker or another 
+        healthcare professional, we want to help you find a job you love.</p>
+      <p>Our staff are our biggest asset so we ensure you are 
+        supported, valued and listened to.</p>
+        <a href="{{url_for('register')}}" class="waves-effect waves-light btn">Apply Here</a>
+    </div>
+    <div class="col s6 margin-left-10">
+      <div class="row">
+        <div class="col s12">
+          <div class="col s6">
+            <p class="icons-career">
+              <a href="{{url_for('register')}}" class="icons-career">
+                <i class="small material-icons v-middle">person</i><br/>
+                Register with Us
+              </a>
+            </p>
+          </div>
+          <div class="col s6">
+            <p class="icons-career">
+              <a href="mailto:office@yournurse247.co.uk" target="_blank" class="icons-career">
+                <i class="small material-icons v-middle">cloud_download</i><br/>
+                Send your CV
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="col s6">
+            <p class="icons-career">
+              <a href="https://www.facebook.com/Your-Nurse-247-275733063114102/" target="_blank" class="icons-career">
+                <i class="small material-icons v-middle">email</i><br/>
+                Get Notifications
+              </a>
+            </p>
+          </div>
+          <div class="col s6">
+            <p class="icons-career">
+              <a href="https://www.facebook.com/pg/Your-Nurse-247-275733063114102/posts/?ref=page_internal" target="_blank" class="icons-career">
+                <i class="small material-icons v-middle">find_in_page</i><br/>
+                Current Jobs
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="/static/images/medical3.jpg" style="opacity: 1;" alt="Unsplashed background img 2"></div>
+    <div class="parallax">
+      <img 
+      src="/static/images/medical3.jpg" 
+      style="opacity: 0.5;" 
+      alt="Unsplashed background img 2">
+    </div>
   </div>
+</div>
   {% endblock %}

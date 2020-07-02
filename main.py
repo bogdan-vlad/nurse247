@@ -10,6 +10,8 @@ from flask import (
     redirect,
 )
 
+# from upload_blob.upload import upload_blob
+
 import sqlite3
 
 DB_FILE = 'register.db'
@@ -77,6 +79,19 @@ def register_new_form():
     group3 = request.form['group3']
     group3_provide = request.form['group3_provide']
     group4 = request.form['group4']
+    # attachment = request.files['myFile[]']
+    # from werkzeug.utils import secure_filename
+    # import os.path
+    # import tempfile
+
+    # with tempfile.NamedTemporaryFile() as temp:
+    #     attachment.save(temp.name)
+
+    # UPLOAD = '/home/bogdan/projects/nurse247/uploads'
+    # app.config['UPLOAD'] = UPLOAD
+
+    # f_name = secure_filename(attachment.filename)
+    # attachment.save(os.path.join(app.config['UPLOAD'], f_name))
 
     if nmc and nmc_expiry is not None:
         is_nmc = nmc
@@ -101,6 +116,10 @@ def register_new_form():
     to = 'compliance@yournurse247.co.uk'
     from email.mime.text import MIMEText
     from email.mime.multipart import MIMEMultipart
+    from email.mime.image import MIMEImage
+    from email.mime.base import MIMEBase
+    from email import encoders
+    import os.path
 
     msg = MIMEMultipart()
 
@@ -108,25 +127,25 @@ def register_new_form():
     <html>
     <head></head>
       <body>
-        <p>Title: %s</p>
-        <p>First name: %s | Last name: %s</p>
-        <p>Telephone number: %s | Email: %s</p>
-        <p>Nationality: %s | National Insurance Number: %s</p>
-        <p>Address: %s | Postcode: %s</p>
-        <p>Date of Birth: %s</p>
-        <p>Are there any restrictions to your residence withing the UK that
+        <p class="thick">Title: %s</p>
+        <p class="thick">First name: %s | Last name: %s</p>
+        <p class="thick">Telephone number: %s | Email: %s</p>
+        <p class="thick">Nationality: %s | National Insurance Number: %s</p>
+        <p class="thick">Address: %s | Postcode: %s</p>
+        <p class="thick">Date of Birth: %s</p>
+        <p class="thick">Are there any restrictions to your residence withing the UK that
         might your right to take up employment in the UK? %s</p>
-        <p>If your application is successful, would you require
+        <p class="thick">If your application is successful, would you require
         permission to work in the UK? %s</p>
-        <p>NMC/GMC/GDC pin (if applicable): %s | Expiry date: %s</p>
-        <p>Do you have any unspent* Criminal convictions? : %s | %s</p>
-        <p>Are you / have been under / or undergoing any clinical
+        <p class="thick">NMC/GMC/GDC pin (if applicable): %s | Expiry date: %s</p>
+        <p class="thick">Do you have any unspent* Criminal convictions? : %s | %s</p>
+        <p class="thick">Are you / have been under / or undergoing any clinical
         investigation, disciplinary or suspension process
         pending or otherwise? : %s | %s</p>
-        <p>Do you have any health issues or a disability relevant
+        <p class="thick">Do you have any health issues or a disability relevant
         which may make it difficult for you to carry out functions which
         are essential for the role you seek? : %s | %s</p>
-        <p>Please tick the appropriate box to confirm that you have read
+        <p class="thick">Please tick the appropriate box to confirm that you have read
         and understood the above information. : <br>%s</p>
       </body>
     </html>
@@ -161,6 +180,15 @@ def register_new_form():
     msg['Subject'] = text
 
     msg.attach(MIMEText(body, 'html'))
+
+    # filename = os.path.basename(temp.name)
+    # file_cv = open(temp.name, "rb")
+    # part = MIMEBase('application', 'octet-stream')
+    # part.set_payload(file_cv.read())
+    # encoders.encode_base64(part)
+    # part.add_header('Content-Disposition', "attachment; filename=%s" % filename)
+
+    # msg.attach(part)
 
     print('Before')
     try:

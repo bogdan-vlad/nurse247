@@ -18,7 +18,7 @@
 }
 
 .image-aboutus-banner {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://images.pexels.com/photos/673649/pexels-photo-673649.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    background: linear-gradient(rgba(255, 255, 255, 0.37), rgba(78, 77, 77, 0.7)), url("../images/about.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -40,10 +40,10 @@
     font-size:52px;
     font-weight: 600;
     text-transform: none;
-    color:#fff;
+    color:#176397;
 }
 .image-aboutus-para {
-    color:#fff;
+    color:#176397;
 }
 
 .cta-padding35 {
